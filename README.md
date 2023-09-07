@@ -10,6 +10,5 @@ I'm a JavaScript developer
 <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=React&logoColor=fff">
 <img src="https://img.shields.io/badge/-Vue-4FC08D?style=flat-square&logo=Vue.js&logoColor=fff">
 <img src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=Express&logoColor=fff">
-<img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=fff">
 <img src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=fff">
 <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=fff"></p>
