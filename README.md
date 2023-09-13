@@ -17,4 +17,4 @@ I'm a JavaScript developer
 <img src="https://img.shields.io/badge/-Ubuntu-E95420?style=flat-square&logo=Ubuntu&logoColor=fff">
 <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=fff"></p>
 
-![](https://raw.githubusercontent.com/seiran233/seiran233/main/dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9)
+![](https://raw.githubusercontent.com/seiran233/seiran233/main/assets/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9)
