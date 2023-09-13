@@ -1,0 +1,31 @@
+name: Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk@v3.0.0
+        with: 
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - uses: EndBug/add-and-commit@v9
+        with:
+          branch: main
+          message: 'Generate Contribution Snake'
+          author_name: seiran233
+          author_email: cl@canglan.club
